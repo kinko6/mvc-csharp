@@ -1,0 +1,27 @@
+@model IEnumerable<MvcMalado.Models.Professor>
+
+<h2>Lista de Professores</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Disciplina</th>
+            <th>Anos de Experiência</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var professor in Model)
+        {
+            <tr>
+                <td>@professor.Id</td>
+                <td>@professor.Nome</td>
+                <td>@professor.Disciplina</td>
+                <td>@professor.AnosDeExperiencia</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Professores/Create" class="btn btn-primary">Adicionar Professor</a>

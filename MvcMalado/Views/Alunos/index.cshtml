@@ -1,0 +1,30 @@
+@model IEnumerable<MvcMalado.Models.Aluno>
+
+@{
+    ViewData["Title"] = "Lista de Alunos";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Curso</th>
+            <th>Turma</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var aluno in Model)
+        {
+            <tr>
+                <td>@aluno.Nome</td>
+                <td>@aluno.Idade</td>
+                <td>@aluno.Curso</td>
+                <td>@aluno.Turma</td> <!-- Exibindo a Turma -->
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Alunos/Create" class="btn btn-primary">Adicionar aluno</a>

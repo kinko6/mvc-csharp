@@ -1,0 +1,23 @@
+@model MvcMalado.Models.Aluno
+
+<h2>Adicionar Aluno</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <input type="text" class="form-control" asp-for="Nome" id="Nome" required />
+    </div>
+    <div class="form-group">
+        <label for="Idade">Idade</label>
+        <input type="number" class="form-control" asp-for="Idade" id="Idade" required />
+    </div>
+    <div class="form-group">
+        <label for="Curso">Curso</label>
+        <input type="text" class="form-control" asp-for="Curso" id="Curso" required />
+    </div>
+    <div class="form-group">
+        <label for="Turma">Turma</label>
+        <input type="text" class="form-control" asp-for="Turma" id="Turma" required />
+    </div>
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>

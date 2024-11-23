@@ -1,0 +1,9 @@
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.csproj.AssemblyReference.cache
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.GeneratedMSBuildEditorConfig.editorconfig
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.AssemblyInfoInputs.cache
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.AssemblyInfo.cs
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.csproj.CoreCompileInputs.cache
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.MvcApplicationPartsAssemblyInfo.cache
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.RazorAssemblyInfo.cache
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.RazorAssemblyInfo.cs
+/Users/larger/Desktop/github/mvc-csharp/MvcMalado/obj/Debug/net8.0/MvcMalado.sourcelink.json
